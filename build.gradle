@@ -1,0 +1,47 @@
+plugins {
+    id 'scala'
+    id 'idea'
+    id 'application'
+}
+
+
+application {
+    mainClass.set( 'spaceinvaders.game.SpaceInvadersGame')
+}
+
+
+
+test {
+    useJUnitPlatform()
+    afterSuite { suite, result ->
+        result.exception?.printStackTrace()
+    }
+}
+
+ext {
+    scalaMajorVersion = '2.13'
+    scalaVersion = '2.13.11'
+}
+
+
+repositories {
+    flatDir {
+        dirs 'lib'
+    }
+
+    mavenCentral()
+}
+
+sourceSets.main.scala.srcDirs = ['src']
+sourceSets.test.scala.srcDirs = ['test']
+
+dependencies {
+    implementation "org.scala-lang:scala-library:${scalaVersion}"
+    implementation fileTree(include: ['*.jar'], dir: 'lib')
+    testImplementation('junit:junit:4.13.2')
+    testImplementation('org.junit.vintage:junit-vintage-engine:5.9.0')
+    testImplementation "org.scalatest:scalatest_${scalaMajorVersion}:3.0.8"
+}
+
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="snake.basic.PlacementTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-09-16T14:12:24" hostname="Svens-MacBook-Air.local" time="0.046">
+  <properties/>
+  <testcase name="testStartCorrectly" classname="snake.basic.PlacementTests" time="0.04"/>
+  <testcase name="testApplePos3" classname="snake.basic.PlacementTests" time="0.001"/>
+  <testcase name="testApplePos8" classname="snake.basic.PlacementTests" time="0.001"/>
+  <testcase name="testNoRoomForApple" classname="snake.basic.PlacementTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
