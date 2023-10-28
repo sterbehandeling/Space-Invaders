@@ -6,4 +6,4 @@ How to run:
   - Make sure java version is 1.8.0_xxx
   - Clone repository
   - For IntelliJ -> There should be a run configuration automatically set up
-  - For Others -> Run gradle project
+  - For Others -> Run ./gradlew run
