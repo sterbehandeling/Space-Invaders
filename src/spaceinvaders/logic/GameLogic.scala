@@ -1,6 +1,5 @@
 package spaceinvaders.logic
 
-import engine.random.{RandomGenerator, ScalaRandomGen}
 import engine.graphics.{Point, Rectangle}
 import spaceinvaders.logic.GameLogic._
 

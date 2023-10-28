@@ -15,7 +15,6 @@ import engine.graphics.{Color, Point, Rectangle}
 import spaceinvaders.logic._
 import spaceinvaders.game.SpaceInvadersGame._
 import engine.graphics.Color._
-import engine.random.ScalaRandomGen
 import sun.security.ec.point.ProjectivePoint.Mutable
 
 import java.io.{File, FileWriter}
