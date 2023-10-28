@@ -3,8 +3,6 @@
 
 package spaceinvaders.game
 
-import apple.laf.JRSUIConstants.Direction
-
 import java.awt.event
 import processing.core.{PApplet, PConstants, PImage}
 import processing.event.KeyEvent
@@ -15,7 +13,6 @@ import engine.graphics.{Color, Point, Rectangle}
 import spaceinvaders.logic._
 import spaceinvaders.game.SpaceInvadersGame._
 import engine.graphics.Color._
-import sun.security.ec.point.ProjectivePoint.Mutable
 
 import java.io.{File, FileWriter}
 import scala.collection.mutable
